@@ -1,0 +1,32 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+main {
+  font-size: 1.5rem;
+  border: 1px solid black;
+  margin: 5vh auto;
+  height: 85vh;
+  width: 65vw;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  border-radius: 0.2em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-image: linear-gradient(rgb(235, 238, 245), rgb(167, 172, 241));
+}
+main h2,
+main h3 {
+  margin: 20px;
+}
+.container {
+  font-size: 1.2em;
+  margin: 5% 0;
+}
+.icon-weather {
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+}
